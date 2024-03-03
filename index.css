@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-color: lightgrey;
+}
+
+.bookmark {
+    background-color: rgb(241, 234, 234);
+}
+
+.page {
+    display: none;
+}
+
+.bookmark-block {
+    display: block;
+}
