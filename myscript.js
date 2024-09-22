@@ -173,4 +173,6 @@ function deleteBookmark(i) {
     displayBookmarks()
 }
 
-
+function removeAlert() {
+    $(".al").hide()
+}
