@@ -96,9 +96,9 @@ function displayBookmarks() {
         div += `<div class="justify-content-center p-3 bookmark page" id="page${pages}">
                     <h2>${bookmark.website}
                     <div class="row">
-                    <button class="col-sm my-1 btn btn-light" onclick="window.open('${bookmark.link}', '_self')">Visit</button>
-                    <button class="col-sm my-1 btn btn-danger" onclick="deleteBookmark(${i})">Delete</button> 
-                    <button class="col-sm my-1 btn btn-success" onclick="editURL(${i})">Edit URL</button>
+                    <button class="col-sm m-1 btn btn-light" onclick="window.open('${bookmark.link}', '_self')">Visit</button>
+                    <button class="col-sm m-1 btn btn-danger" onclick="deleteBookmark(${i})">Delete</button> 
+                    <button class="col-sm m-1 btn btn-success" onclick="editURL(${i})">Edit URL</button>
                     </div>
                     </h2>
                 </div>`
